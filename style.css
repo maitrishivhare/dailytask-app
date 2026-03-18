@@ -199,26 +199,7 @@ ul li:hover {
     padding: 10px 0;
     text-align: center;
 }
-/* FIX INPUT + BUTTON RESPONSIVENESS */
-.input-group {
-  display: flex;
-  width: 100%;
-  gap: 10px;
-}
 
-.input-group input {
-  flex: 1;
-  min-width: 0; /* VERY IMPORTANT */
-}
-
-.input-group button {
-  flex-shrink: 0;
-  white-space: nowrap;
-}
-@media (max-width: 480px) {
-  .input-group {
-    flex-direction: column;
-  }
 
   .input-group button {
     width: 100%;
