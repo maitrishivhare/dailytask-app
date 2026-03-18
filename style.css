@@ -199,3 +199,34 @@ ul li:hover {
     padding: 10px 0;
     text-align: center;
 }
+/* 📱 MOBILE */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input,
+  .input-group button {
+    width: 100%;
+  }
+}
+
+/* 📱 TABLET */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    max-width: 600px;
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
